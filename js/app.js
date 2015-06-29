@@ -1,7 +1,7 @@
+(function (document) {
 'use strict';
 var myDiv = document.querySelectorAll('main div'),
     counter = new Array(5);
-
 
 
 
@@ -26,3 +26,4 @@ for (var i= 0; i < myDiv.length; i++) {
   })(i);
 }
 */
+  }(window.document))
